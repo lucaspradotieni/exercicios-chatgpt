@@ -1,0 +1,69 @@
+//Aplique um desconto de 20% e mostre o valor final.
+let valor = 50
+let desconto = valor *0.2
+let valorFinal = valor - desconto;
+console.log(valorFinal);
+
+
+//Peça uma idade e informe maior ou menor de 18
+let idade = prompt('Qual sua idade?');
+if (idade > 18) {
+    alert('Você é maior de 18 Anos!');
+} else {
+    alert('Você é menor de 18 Anos!');
+}
+
+
+//Crie uma Var. para numero e verifique se é positivo, negativo ou zero
+let num = prompt('Digite um número:');
+if (num > 0) {
+    alert('Seu número é positivo');
+} else if (num < 0) {
+    alert('Seu número é negativo');
+} else {
+    alert ('Seu número é nulo');
+}
+
+
+//Verifique se o número é par ou impar
+let num = prompt('Digite um número:');
+if (num % 2 === 0) {
+    alert('Seu número é par!');
+} else {
+    alert('Seu número é impar!');
+}
+
+
+//Mostre os números de 1 até 10
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+ou
+let num = 1;
+while (num <= 10) {
+    num++
+    console.log(num);
+}
+
+
+//Crie uma função que receba dois números e retorne a soma deles
+function soma(num1+num2) {
+    return num1+num2;
+}
+let num1 = prompt('Digite um número:');
+let num2 = prompt('Digite outro número:');
+alert(`A soma dos dois números é: ${soma}`);
+
+
+//Crie uma função que receba um nome e retorne: Boas Vindas, NOME
+function boasVindas(nome) {
+    return `Bem Vindo ${nome}`;
+}
+let nome = prompt('Qual seu nome?');
+alert(boasVindas);
+
+
+//Crie um array com 5 numeros e exiba o primeiro e o último.
+let numeros [9,8,7,6,5]
+console.log(numeros[0]);
+console.log(numeros[4]);
